@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <h1>Scope of var, let, and const:</h1>
+    <p>
+        <h3>1. Var</h3>
+        <ul>
+            <li>Variables declared with var are function-scoped or globally scoped. This means that their scope is limited to the function in which they are declared, or if declared outside of any function, they are global variables.</li>
+            <li>
+                They can be re-declared and updated within their scope.
+            </li>
+        </ul>
+    </p>
+    <p>
+        <h3>2. let:
+        </h3>
+        <ul>
+            <li>Variables declared with let have block scope. This means they are only accessible within the block ({}) in which they are defined.</li>
+            <li>
+                They can be reassigned within their scope, but not re-declared in the same scope.
+
+            </li>
+        </ul>
+    </p>
+    <p>
+        <h3>3. const:
+        </h3>
+        <ul>
+            <li>Variables declared with const also have block scope.</li>
+            <li>
+                They cannot be reassigned once they are declared, though their contents (if they are objects or arrays) can be modified.
+            </li>
+        </ul>
+    </p>
+
+    <h2>Use cases of null and undefined:
+    </h2>
+
+    <ul>
+        <li>null: It represents the intentional absence of any object value. It's often used to explicitly set a variable to an "empty" or "non-existent" state. For example, you might set a variable to null to indicate that it hasn't been assigned a value yet.</li>
+        <li>undefined: It typically means a variable has been declared but has not yet been assigned a value. It's the default value of uninitialized variables in JavaScript. It can also arise when accessing properties of objects that don't exist or when a function doesn't return anything explicitly.</li>
+    </ul>
+    <h2>REST API:</h2>
+    <ul>
+        <li>REST (Representational State Transfer) API is a software architectural style for creating scalable web services. It is based on the principles of REST, which include stateless communication, client-server architecture, uniform interface, cacheability, layered system, and code-on-demand (optional).</li>
+    </ul>
+</body>
+</html>
